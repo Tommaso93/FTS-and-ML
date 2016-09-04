@@ -1,9 +1,9 @@
 Report End August - 04/09/2016
 
 -------------------------
-During this month, I managed to complete and debug the python script used for converting the .json file into a .csv
-Using R, i managed to produce a correlation matrix between all variables, in order to check correlations between columns.
-As regarding the Machine Learning, I encountered several problems with DCAFPilot regarding the compatibility with FTS format, different from the supported PopDB data format. After a few changes in the DCAF source code, I started to train a classification model (with RandomForestClassifier classificator) using as target column the delta transfer time. For target threshold I choose 1h and 2h of delta transfer time (in the R histogram I plotted the number of events function of the delta transfer time). Also, for each case, I modified the number of column drops during the transformation process, in order to see if there was any improvement dropping more or less correlated columns.
+During this month, I managed to complete and debug the python script used for converting the .json file into a .csv <br /> <br />
+Using R, i managed to produce a correlation matrix between all variables, in order to check correlations between columns.<br />
+As regarding the Machine Learning, I encountered several problems with DCAFPilot regarding the compatibility with FTS format, different from the supported PopDB data format. After a few changes in the DCAF source code, I started to train a classification model (with RandomForestClassifier classificator) using as target column the delta transfer time. For target threshold I choose 1h and 2h of delta transfer time (in the R histogram I plotted the number of events function of the delta transfer time). <br /> Also, for each case, I modified the number of column drops during the transformation process, in order to see if there was any improvement dropping more or less correlated columns.
 
 Results are shown in this table:
 
