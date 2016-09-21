@@ -5,6 +5,9 @@ This repository contains the material for my personal project for the CERN Summe
 The main topic of this project regards CMS data transfer latency studies in PhEDEx.
 After grabbing FTS and xrootd data on HDFS in .json row format, these need to be converted into a table data format (.csv) in order to be read by DCAFPilot, which contains algorithms for ML techniques.
 
+The repository used for samples and general instructions is the following:
+https://github.com/gudrutis/TransferMonitoring.git
+
 --------------
 Tommaso Diotalevi
 
