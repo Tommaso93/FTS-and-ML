@@ -1,3 +1,8 @@
+# Model comparison Bash script
+# Tommaso Diotalevi
+# This script executes several times the DCAFPilot model tool (after the transformation of train/valid datasets), in order to print scorer for those models.
+# The output is sent via email.
+
 #!/bin/bash
 
 
